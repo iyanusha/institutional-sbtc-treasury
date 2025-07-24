@@ -70,6 +70,11 @@ plan:
             path: contracts/bitgo-interface.clar
             clarity-version: 3
         - emulated-contract-publish:
+            contract-name: fireblocks-interface
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/fireblocks-interface.clar
+            clarity-version: 3
+        - emulated-contract-publish:
             contract-name: treasury-manager
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/treasury-manager.clar
