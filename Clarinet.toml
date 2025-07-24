@@ -5,6 +5,11 @@ authors = []
 telemetry = false
 cache_dir = './.cache'
 requirements = []
+[contracts.bitgo-interface]
+path = 'contracts/bitgo-interface.clar'
+clarity_version = 3
+epoch = 3.1
+
 [contracts.treasury-manager]
 path = 'contracts/treasury-manager.clar'
 clarity_version = 3
